@@ -22,7 +22,8 @@ A smart contract application for storing a password. Users should be able to sto
   - [Deploy (local)](#deploy-local)
   - [Testing](#testing)
     - [Test Coverage](#test-coverage)
-- [Audit Scope Details](#audit-scope-details)
+  - [Audit Scope Details](#audit-scope-details)
+  - [Compatibilities](#compatibilities)
   - [Roles](#roles)
   - [Create the audit report](#create-the-audit-report)
 
@@ -79,7 +80,7 @@ and for coverage based testing:
 forge coverage --report debug
 ```
 
-# Audit Scope Details
+## Audit Scope Details
 
 - Commit Hash:  7d55682ddc4301a7b13ae9413095feffd9924566
 - In Scope:
@@ -87,8 +88,12 @@ forge coverage --report debug
 ./src/
 └── PasswordStore.sol
 ```
+
+## Compatibilities
+
 - Solc Version: 0.8.18
 - Chain(s) to deploy contract to: Ethereum
+- Tokens: None
 
 ## Roles
 
